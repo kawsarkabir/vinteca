@@ -20,7 +20,7 @@ body{
 .common-btn{
     background: #6a6dfb;
     color: #fff;
-    padding: 10px 25px;
+    padding: 8px 25px;
     border-radius: 8px;
     display: inline-block;
     text-decoration: none;
@@ -125,6 +125,27 @@ common css style end
         font-weight: 700;
         font-size: 20px;
        
+    }
+}
+/* ready section end */
+/* features section start */
+.feature-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-wrapper h6{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* responsive style here */
+@media only screen and (max-width: 576px) {
+    .feature-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+         text-align: center;
     }
 }
 
