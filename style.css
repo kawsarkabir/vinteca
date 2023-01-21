@@ -155,17 +155,142 @@ common css style end
 }
 .client-inner{
     box-shadow: 1px 1px 8px #aeaeae;
-    padding: 30px;
 }
+.client-inner span{
+    color: #ffc107;
+}
+/* client seciton end */
+/* our team section start */
+.team-section-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.team-inner{
+    border: 1px solid #797c7fe3;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
+}
+.team-inner small{
+    position: relative;
+    top: -8px;
+    font-size: 12px;
+}
+.icon-menu{
+    border-top: 1px solid #acacace9;
+    margin-top: 10px;
+}
+.icon-menu ul{
+    list-style: none;
+    margin-left: -37px;
+}
+.icon-menu ul li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #aeaeae;
+    color: #6c757d;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+/* responsive style here */
+@media only screen and (max-width:576px) {
+    .team-section-wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+/* our team section end */
+/* pricing section stsrt */
+.pricing-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.pricing-section{
+    background-color: #f8f9fa;
+}
+.pricing-inner{
+    box-shadow: 1px 1px 10px #f8f9fa;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.pricing-inner h1{
+    color: #6a6dfb;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.pricing-inner i{
+    color: rgb(113, 210, 65);
+    margin-right: 8px;
+}
+.pricing-inner small{
+    font-size: 13px !important;
+    color: #6c757d;
 
-
-
-
-
-
-
-
-
-
-/* hero section end */
-/* header section end */
+}
+.pricing-list ul{
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+.pricing-list ul li{
+    padding: 5px 0;
+}
+/* responsive style here */
+@media only screen and (max-width:576px) {
+    .pricing-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .pricing-inner h1{
+        font-size: 25px;
+    }
+    
+}
+/* pricing section end */
+/* blog section start */
+.blog-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.blog-inner{
+    box-shadow: 1px 1px 10px #eaeaea;
+    border-radius: 5px;
+}
+/* responsive style here */
+@media only screen and (max-width: 576px) {
+    .blog-wrapper{
+        grid-template-columns:  1fr;
+    }
+    
+}
+/* blog section end */
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact-details{
+    box-shadow: 1px 1px 10px #aeaeae;
+}
+.contact-details .contact-icon{
+    font-size: 60px;
+    color: #6a6dfb;
+}
+/* contact section end */
+/* footer section start */
+.footer-section ul{
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+.footer-section ul li{
+    padding: 5px 0px;
+    color: #6c757d;
+}
+/* footer section end */
