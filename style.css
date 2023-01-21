@@ -2,3 +2,119 @@
 body{
     font-family: 'Noto Sans', sans-serif;
 }
+/* ====================
+  common css style here
+=======================*/
+.text-blueGray{
+    color: #222b31;
+}
+.bg-blueGray{
+    background-color: #222b31;
+}
+.text-blue{
+    color: #6a6dfb !important;
+}
+.bg-blue{
+    background-color: #6a6dfb;
+}
+.common-btn{
+    background: #6a6dfb;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+}
+.outline-btn{
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h3{
+    font-weight: 600;
+    margin-bottom: 2rem;
+ }
+.section-title span{
+    color: #6a6dfb;
+}
+.section-title p{
+    width: 50%;
+    margin: auto;
+    color: #6c757d!important;
+
+}
+/*===================
+common css style end
+===================*/
+/* header section start */
+/* hero section start  */
+.hero-section{
+    background-image:linear-gradient(to right, rgba(45, 48, 41, 0.81), rgba(29, 29, 30, 0.7)) ,url('./img/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 30% 100%, 0 86%);
+    background-attachment: fixed;
+}
+
+.hero-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+.hero-content h1{
+    font-size: 55px;
+}
+/* hero section done */
+/* service section start */
+.services-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.item{
+    text-align: center;
+}
+.item img{
+    max-width: 60%;
+}
+.item h5{
+    font-weight: 700;
+    margin: 10px 0;
+}
+.item p{
+    color: #6c757d;
+    font-size: 15px !important;
+}
+/* service section responsive here */
+@media only screen and (max-width: 576px) {
+    .services-items{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* hero section end */
+/* header section end */
