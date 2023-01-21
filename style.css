@@ -148,7 +148,15 @@ common css style end
          text-align: center;
     }
 }
-
+/* features section end */
+/* our client secion start */
+.client-section{
+    background-color: #f8f9fa;
+}
+.client-inner{
+    box-shadow: 1px 1px 8px #aeaeae;
+    padding: 30px;
+}
 
 
 
