@@ -106,7 +106,7 @@ common css style end
 }
 /* our service section end */
 .ready-enjoy{
-    padding: 150px;
+    padding: 100px;
     background-color: #f8f9fa;
     text-align: center;
 }
@@ -118,8 +118,14 @@ common css style end
     color: #6c757d;
     font-size: 15px;
     padding: 15px 0;
-    margin: auto;
-    width: 70%;
+}
+/* responsive style here */
+@media only screen and (max-width:576px) {
+    .ready-enjoy h3{
+        font-weight: 700;
+        font-size: 20px;
+       
+    }
 }
 
 
